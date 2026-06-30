@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edgar & Ioanna</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<script>
+window.addEventListener("scroll", function () {
+
+    const scrollPosition = window.scrollY + window.innerHeight;
+    const pageHeight = document.documentElement.scrollHeight;
+
+    const button = document.querySelector(".popup-button");
+
+    if (scrollPosition >= pageHeight - 10) {
+        button.classList.add("show");
+    } else {
+        button.classList.remove("show");
+    }
+
+});
+</script>
+<body>
+
+    <header class="mobile-header">
+        <img src="assets/banner.png" alt="Banner">
+    </header>
+
+    <main class="container">
+        <section class="hero">
+
+            <img src="assets/header.png" alt="Header Image" class="header-image">
+
+            <p>We are so excited to have you all in Kea! 
+            <br><br>
+            We have put together some practical information to help you plan your trip and make the most of your stay.
+            </p>
+            <div class="title-row">
+                <h2>The day before</h2>
+                <h4 class="date">11/09/2026</h4>
+            </div>
+            <p>
+                To kick off the celebrations, we will be hosting a welcome reception at <a href="https://maps.app.goo.gl/KAAcCJfEGHhrzFNV6" target="_blank">Cousteau bar</a> in Vourkari from 18.00 to 21.00 with some wine and finger food.
+            </p>
+            <div class="title-row">
+                <h2>The wedding day</h2>
+                <h4 class="date">12/09/2026</h4>
+            </div>
+            <p>
+                The ceremony will take place at <a href="https://maps.app.goo.gl/FJZuu7cGDLbFJPAe7" target="_blank">Agios Simeon Church</a> at 18:00, followed by a reception at <a href="https://maps.app.goo.gl/28tjYnQZ8JRuFXi78" target="_blank">Taverna Karthaia</a>.
+            </p>
+
+            <div class="button-container">
+                <a href="https://forms.gle/uqE9yWULnbHLfWgb8" class="rsvp-button" target="_blank">RSVP</a>
+            </div>
+
+            <h3>Transportation</h3>
+            <p>
+                While many guests may choose to arrive independently by car, organized transportation will be arranged for those who prefer not to drive. Taxis are also available to be booked if you would like a private option. Please let us know if you would like to use these services so we can plan accordingly.
+            </p>
+            <h3>Dress Code</h3>
+            <p>
+                The dress code is island chic / smart casual.
+            </p>
+            <h2>Gift</h2>
+            <p>
+                Sharing this day together will be the best gift we can have. However, if you would also like to contribute to our honey moon you can do so in the following account:
+                <br>
+                <div class="wedding-gift">
+                Ioanna Lazopoulou & Edgar Perez Campos
+                <br>
+                IBAN LT293250036041467569
+                <br>
+                BIC REVOLT21
+                </div>
+            </p>
+
+            <img src="assets/footer.png" alt="Footer Image" class="footer-image">
+        </section>
+
+        <div class="popup-button">
+            <a href="practical.html">
+                Plan your trip!
+            </a>
+        </div>
+    </main>
+    <div class="page-overlay"></div>
+</body>
+</html>
