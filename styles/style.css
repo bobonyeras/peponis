@@ -1,0 +1,218 @@
+:root {
+    --main-color:#06c;
+    --background-color:rgb(233, 241, 221);
+}
+
+body {
+    background: var(--background-color);
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-header {
+    display: none;
+}
+
+.header-image {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto 2rem auto;
+}
+
+.footer-image {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto 2rem auto;
+}
+
+.hero {
+    grid-column: 2;
+    background-color: var(--background-color);
+    padding: 5vh 5vw;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.hero p,
+.info-section p {
+    text-align: center;
+    line-height: 1.7;
+}
+
+.info-section {
+    margin-bottom: 2.5rem;
+}
+
+.info-section ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.7;
+    margin: 0 auto;
+}
+
+.island-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.6rem 2rem;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.island-name {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+.popup-button {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    opacity: 0;
+    pointer-events: none;
+
+    transition: 0.3s ease;
+
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 0; /* keeps it sharp */
+
+    border: 2px solid;
+    background: transparent;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+}
+
+/* when visible */
+.popup-button.show {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+    pointer-events: auto;
+}
+
+.title-row {
+    display: block;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero h2 {
+    font-size: 1.6rem;
+}
+
+.hero h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.title {
+    flex: 1;
+    margin: 0;
+}
+
+.date {
+    flex-shrink: 0;
+    margin-top: 0;
+    white-space: nowrap;
+    padding-top: 0;
+    font-size: 1.2rem;
+    
+}
+
+.wdding-gift {
+    display: block;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.page-overlay {
+    position: fixed;
+    inset: 0;
+
+    background-color:  var(--background-color);
+    background-image: url("../assets/senyors.png");
+    background-size: 50%;   /* smaller image */
+    opacity: 1;
+
+    pointer-events: none;
+    z-index: -1;
+}
+
+.rsvp-button {
+    display: inline-block;
+    padding: 12px 36px;
+    border: 2px solid;
+    background: transparent;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+
+
+@media (orientation: portrait) {
+
+    .mobile-header {
+        background-color: var(--background-color);
+        display: block;
+        height: 8vh;
+        text-align: center;
+    }
+
+    .mobile-header img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .hero {
+       grid-column: 1;
+       padding: 3vh 5vw;
+
+    }
+
+    .header-image {
+        width: 70%;
+    }
+
+    .footer-image {
+        width: 60%;
+    }
+}
