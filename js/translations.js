@@ -62,7 +62,7 @@ const translations = {
   es: {
     // Index page
     title: "Edgar e Ioanna",
-    excitedMessage: "¡Nos hace una ilusión tenerós a todos en Kea!",
+    excitedMessage: "¡Nos hace mucha ilusión tenerós a todos en Kea!",
     practicalInfo: "Hemos preparado información práctica para que podáis planificar vuestro viaje y aprovechar al máximo vuestra estancia.",
     theDayBefore: "La víspera",
     theWeddingDay: "El día de la boda",
@@ -77,7 +77,7 @@ const translations = {
     transportation: "Transporte",
     transportationDesc: "Muchos de nuestros invitados podrán llegar por cuenta propia en coche, pero también disponemos de taxis si preferís una opción privada. Por favor, comunicadnos si deseáis utilizar estos servicios para que podamos organizarlo adecuadamente.",
     dressCode: "Código de vestimenta",
-    dressCodeDesc: "La vestimenta es elegante casual / estilo isleño.",
+    dressCodeDesc: "La vestimenta es smart casual / island chic.",
     gift: "Regalo",
     giftDesc: "El mejor regalo será compartir este día con vosotros. Sin embargo, si deseáis contribuir a nuestra luna de miel, podéis hacerlo en la siguiente cuenta:",
     giftNames: "Ioanna Lazopoulou & Edgar Perez Campos",
@@ -140,7 +140,7 @@ const translations = {
     dressCodeDesc: "Ο κωδικός ενδυμασίας είναι νησιώτικο chic / smart casual.",
     gift: "Δώρο",
     giftDesc: "Το να μοιράζεστε αυτήν την ημέρα μαζί μας θα είναι το καλύτερο δώρο που μπορούμε να έχουμε. Ωστόσο, εάν θέλετε να συνεισφέρετε στο μήνα του μέλιτος μας, μπορείτε να το κάνετε στον ακόλουθο λογαριασμό:",
-    giftNames: "Ιωάννα Λαζοπούλου & Έντγαρ Πέρεζ Κάμπος",
+    giftNames: "Ιωάννα Λαζοπούλου & Edgar Perez Campos",
     giftIban: "IBAN LT293250036041467569",
     giftBic: "BIC REVOLT21",
     planYourTrip: "Σχεδιάστε το ταξίδι σας!",
