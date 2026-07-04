@@ -77,6 +77,12 @@ p {
     margin: 0 auto;
 }
 
+.info-section ul li {
+    font-family: inherit;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
 .island-grid {
     display: grid;
     grid-template-columns: minmax(90px, auto) 1fr;
@@ -89,16 +95,18 @@ p {
 }
 
 .island-name {
-    font-weight: bold;
+    font-family: inherit;
+    font-weight: 700;
     white-space: nowrap;
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 .island-grid > span:last-child,
 .island-grid > span:nth-child(2n) {
-    font-size: 1rem;
-    line-height: 1.6;
+    font-family: inherit;
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 
@@ -189,6 +197,18 @@ p {
     margin: 25px 0;
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.02);
+    text-align: left;
+    font-family: inherit;
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+.remark-box-title {
+    font-style: italic;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 0.85rem;
+    color: #000000;
 }
 
 .remark-box h4 {
@@ -328,6 +348,11 @@ p {
         margin: 0 auto;
     }
 
+    /* Hide side decoration overlays / repeating frames on mobile */
+    .page-overlay {
+        display: none !important;
+    }
+
     /* 2. Stack any multi-column layouts into a clean vertical list */
     .row, .flex-container {
         flex-direction: column;
@@ -346,4 +371,14 @@ p {
         max-width: 100%;
         height: auto;
     }
+
+    /* Pushes the button box down cleanly only on mobile screens */
+    .footer-image {
+        margin-bottom: 50px !important;
+    }
+    
+    .popup-button {
+        margin-top: 40px !important;
+    }
 }
+

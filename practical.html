@@ -9,12 +9,6 @@
     <script src="js/translations.js"></script>
 </head>
 <body>
-    <div class="lang-switcher">
-        <button class="lang-btn active" data-lang="en" onclick="setLanguage('en')">EN</button>
-        <button class="lang-btn" data-lang="es" onclick="setLanguage('es')">ES</button>
-        <button class="lang-btn" data-lang="el" onclick="setLanguage('el')">EL</button>
-    </div>
-
     <main class="container">
         <section class="hero">
 
@@ -100,13 +94,29 @@
                 </ul>
             </div>
 
-            <div class="button-container">
-                <a href="index.html" class="button" data-i18n="back">Back</a>
+            <img src="assets/footer.png" alt="Footer Image" class="footer-image">
+            <div class="popup-button">
+                <a href="index.html" data-i18n="theEvent">The Event</a>
             </div>
 
         </section>
 
     </main>
     <div class="page-overlay"></div>
+    <script>
+        window.addEventListener("scroll", function () {
+            const scrollPosition = window.scrollY + window.innerHeight;
+            const pageHeight = document.documentElement.scrollHeight;
+            const button = document.querySelector(".popup-button");
+
+            if (!button) return;
+
+            if (scrollPosition >= pageHeight - 10) {
+                button.classList.add("show");
+            } else {
+                button.classList.remove("show");
+            }
+        });
+    </script>
 </body>
 </html>
