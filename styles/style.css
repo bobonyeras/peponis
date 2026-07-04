@@ -79,16 +79,26 @@ p {
 
 .island-grid {
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 0.6rem 2rem;
+    grid-template-columns: minmax(90px, auto) 1fr;
+    gap: 0.6rem 1.25rem;
     text-align: left;
-    width: 80%;
+    width: 100%;
+    max-width: 720px;
     margin: 0 auto;
+    align-items: start;
 }
 
 .island-name {
     font-weight: bold;
     white-space: nowrap;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.island-grid > span:last-child,
+.island-grid > span:nth-child(2n) {
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 
@@ -152,11 +162,35 @@ p {
     
 }
 
-.wdding-gift {
+.wedding-gift {
     display: block;
     gap: 1rem;
     width: 100%;
     margin-bottom: 1rem;
+}
+
+.remark-left-border {
+    border-left: 2px solid #000000;
+    padding-left: 15px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #000000;
+}
+
+.remark-box {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.remark-box h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: bold;
+    color: #000000;
 }
 
 .page-overlay {
@@ -181,6 +215,39 @@ p {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     transition: all 0.3s ease;
+}
+
+/* Language Switcher */
+.lang-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.lang-btn {
+    padding: 8px 14px;
+    border: 2px solid var(--main-color);
+    background: transparent;
+    color: var(--main-color);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.lang-btn:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.lang-btn.active {
+    background-color: var(--main-color);
+    color: white;
 }
 
 
@@ -214,5 +281,16 @@ p {
 
     .footer-image {
         width: 60%;
+    }
+
+    .lang-switcher {
+        top: 10px;
+        right: 10px;
+        gap: 5px;
+    }
+
+    .lang-btn {
+        padding: 6px 10px;
+        font-size: 0.8rem;
     }
 }

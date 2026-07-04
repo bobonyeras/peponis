@@ -6,8 +6,8 @@
     <title>Edgar & Ioanna</title>
 
     <link rel="stylesheet" href="styles/style.css">
-</head>
-<script>
+    <script src="js/translations.js"></script>
+    <script defer>
 window.addEventListener("scroll", function () {
 
     const scrollPosition = window.scrollY + window.innerHeight;
@@ -22,8 +22,14 @@ window.addEventListener("scroll", function () {
     }
 
 });
-</script>
+    </script>
+</head>
 <body>
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en" onclick="setLanguage('en')">EN</button>
+        <button class="lang-btn" data-lang="es" onclick="setLanguage('es')">ES</button>
+        <button class="lang-btn" data-lang="el" onclick="setLanguage('el')">EL</button>
+    </div>
 
     <header class="mobile-header">
         <img src="assets/banner.png" alt="Banner">
@@ -34,47 +40,54 @@ window.addEventListener("scroll", function () {
 
             <img src="assets/header.png" alt="Header Image" class="header-image">
 
-            <p>We are so excited to have you all in Kea! 
+            <p data-i18n="excitedMessage">We are so excited to have you all in Kea! 
             <br><br>
-            We have put together some practical information to help you plan your trip and make the most of your stay.
+            </p>
+            <p data-i18n="practicalInfo">We have put together some practical information to help you plan your trip and make the most of your stay.
             </p>
             <div class="title-row">
-                <h2>The day before</h2>
+                <h2 data-i18n="theDayBefore">The day before</h2>
                 <h4 class="date">11/09/2026</h4>
             </div>
             <p>
-                To kick off the celebrations, we will be hosting a welcome reception at <a href="https://maps.app.goo.gl/KAAcCJfEGHhrzFNV6" target="_blank">Cousteau bar</a> in Vourkari from 18.00 to 21.00 with some wine and finger food.
+                <span data-i18n="welcomeReceptionBefore">To kick off the celebrations, we will be hosting a welcome reception at</span>
+                <a href="https://maps.app.goo.gl/KAAcCJfEGHhrzFNV6" target="_blank">Cousteau bar</a>
+                <span data-i18n="welcomeReceptionAfter">in Vourkari from 18.00 to 21.00 with some wine and finger food.</span>
             </p>
             <div class="title-row">
-                <h2>The wedding day</h2>
+                <h2 data-i18n="theWeddingDay">The wedding day</h2>
                 <h4 class="date">12/09/2026</h4>
             </div>
             <p>
-                The ceremony will take place at <a href="https://maps.app.goo.gl/FJZuu7cGDLbFJPAe7" target="_blank">Agios Simeon Church</a> at 18:00, followed by a reception at <a href="https://maps.app.goo.gl/28tjYnQZ8JRuFXi78" target="_blank">Taverna Karthaia</a>.
+                <span data-i18n="ceremonyBefore">The ceremony will take place at</span>
+                <a href="https://maps.app.goo.gl/FJZuu7cGDLbFJPAe7" target="_blank">Agios Simeon Church</a>
+                <span data-i18n="ceremonyMiddle">at 18:00, followed by a reception at</span>
+                <a href="https://maps.app.goo.gl/28tjYnQZ8JRuFXi78" target="_blank">Taverna Karthaia</a>
+                <span data-i18n="ceremonyAfter">.</span>
             </p>
 
             <div class="button-container">
-                <a href="https://forms.gle/uqE9yWULnbHLfWgb8" class="rsvp-button" target="_blank">RSVP</a>
+                <a href="https://forms.gle/uqE9yWULnbHLfWgb8" class="rsvp-button" data-i18n="rsvp" target="_blank">RSVP</a>
             </div>
 
-            <h3>Transportation</h3>
-            <p>
-                While many guests may choose to arrive independently by car, organized transportation will be arranged for those who prefer not to drive. Taxis are also available to be booked if you would like a private option. Please let us know if you would like to use these services so we can plan accordingly.
+            <h3 data-i18n="transportation">Transportation</h3>
+            <p data-i18n="transportationDesc">
+                While many guests may choose to arrive independently by car, taxis are also available to be booked if you would like a private option. Please let us know if you would like to use these services so we can plan accordingly.
             </p>
-            <h3>Dress Code</h3>
-            <p>
+            <h3 data-i18n="dressCode">Dress Code</h3>
+            <p data-i18n="dressCodeDesc">
                 The dress code is island chic / smart casual.
             </p>
-            <h2>Gift</h2>
-            <p>
-                Sharing this day together will be the best gift we can have. However, if you would also like to contribute to our honey moon you can do so in the following account:
+            <h3 data-i18n="gift">Gift</h3>
+            <p data-i18n="giftDesc">
+                Sharing this day together will be the best gift we can have. However, if you would also like to contribute to our honeymoon, you can do so in the following account:
                 <br>
                 <div class="wedding-gift">
-                Ioanna Lazopoulou & Edgar Perez Campos
+                <span data-i18n="giftNames">Ioanna Lazopoulou & Edgar Perez Campos</span>
                 <br>
-                IBAN LT293250036041467569
+                <span data-i18n="giftIban">IBAN LT293250036041467569</span>
                 <br>
-                BIC REVOLT21
+                <span data-i18n="giftBic">BIC REVOLT21</span>
                 </div>
             </p>
 
@@ -82,7 +95,7 @@ window.addEventListener("scroll", function () {
         </section>
 
         <div class="popup-button">
-            <a href="practical.html">
+            <a href="practical.html" data-i18n="planYourTrip">
                 Plan your trip!
             </a>
         </div>
