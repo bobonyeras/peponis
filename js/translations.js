@@ -57,7 +57,7 @@ const translations = {
     pelion: "The Pelion mountain which offers beautiful villages, hikes and incredible beaches",
     crete: "Crete",
     archaeological: "Archaeological sites: Delphi, Mycenae, Ancient Theatre of Epidaurus",
-    back: "Back"
+    theEvent: "The event"
   },
   es: {
     // Index page
@@ -75,7 +75,7 @@ const translations = {
     visitingOtherNoteText: "Desafortunadamente, Kea tiene conexiones limitadas con otras islas, ya que la mayoría de las islas se acceden a través del puerto del Pireo. Tendríais que ir desde Lavrio al Pireo y luego tomar otro ferry, u optar por la opción más rápida de viajar desde Lavrio al aeropuerto y volar a otra isla (evitando así rutas de ferry extremadamente largas y costosas).",
     rsvp: "Confirmar asistencia",
     transportation: "Transporte",
-    transportationDesc: "Muchos de nuestros invitados podrán llegar por cuenta propia en coche, pero también disponemos de taxis si preferís una opción privada. Por favor, comunicadnos si deseáis utilizar estos servicios para que podamos organizarlo adecuadamente.",
+    transportationDesc: "Muchos de nuestros invitados peinsan llegar por cuenta propia en coche, pero también disponemos de taxis si preferís una opción privada. Por favor, comunicadnos si deseáis utilizar estos servicios para que podamos organizarlo adecuadamente.",
     dressCode: "Código de vestimenta",
     dressCodeDesc: "La vestimenta es smart casual / island chic.",
     gift: "Regalo",
@@ -94,14 +94,14 @@ const translations = {
     whatToDoInKea: "¿Qué hacer en Kea?",
     whatToDoDesc: "Kea es una joya escondida y sigue siendo menos turística que otras islas. Recomendamos pasar unos 4-5 días para disfrutar plenamente de lo que la isla tiene para ofrecer, entre otras cosas:",
     horaExplanation: "En las Cícladas, \"Chora\" (Χώρα) es el nombre tradicional de la ciudad principal de una isla. Históricamente, la Chora se construía tierra adentro o en una colina para protegerse de los piratas.",
-    ancientFootpaths: "Senderos antiguos, muchos de los cuales conducen a las hermosas ruinas de la Kea Antigua.",
-    beaches: "Playas hermosas (la mayoría accesibles por camino de tierra): Sikamia, Kámpi, Spáthi, Xila, Kalidoníchi.",
+    ancientFootpaths: "Antiguos senderos, muchos de los cuales conducen a las hermosas ruinas de la Antigua Kea.",
+    beaches: "Playas preciosas (la mayoría accesibles por camino de tierra): Sikamia, Kámpi, Spáthi, Xila, Kalidoníchi.",
     restaurants: "Restaurantes recomendados: To steki, Ennea Kores, To Perasma, To Kampi, I strofi tou Mimi, Filippas, Rolandos, Piatsa",
     ioulida: "Visitad Iúlida (también conocida como Chora) y disfrutad de las vistas del atardecer desde lo alto",
-    adventure: "Para los más aventureros, explorad keaterraactive.com. Para tours en e-bike y senderismo, contactad con Alex al +306970051121 y mencionad que sois invitados a nuestra boda para obtener una tarifa especial.",
+    adventure: "Para los más aventureros, explorad keaterraactive.com. Si quereis hacer tours en e-bike y senderismo, contactad con Alex en el +306970051121 y mencionad que sois invitados a nuestra boda para obtener un precio especial.",
     transport: "Transporte",
     taxiAthens: "Taxi del aeropuerto de Atenas a Lavrio: Podemos recomendaros a Alexia, que os trasladará a un precio fijo de 50 EUR en este trayecto (máximo 4 personas). Podéis hacer la reserva por WhatsApp al +306947309438 con 2-3 días de anticipación.",
-    rentCar: "Alquilar coche/moto en Kea: Recomendamos Leon Rent a Car en Korisia (puerto de Kea). Podéis llamar al +302288021898; preguntad por la Sra. Dimitra o Anna y mencionad que sois invitados a nuestra boda para obtener una tarifa especial.",
+    rentCar: "Alquilar coche/moto en Kea: Recomendamos Leon Rent a Car en Korisia (puerto de Kea). Podéis llamar al +302288021898; preguntad por la Sra. Dimitra o Anna y mencionad que sois invitados a nuestra boda para obtener un precio especial.",
     otherCycladic: "Otras islas de las Cícladas",
     syros: "La capital de las Cícladas con un hermoso pueblo veneciano (una de las pocas con conexiones directas a Kea —hay un barco que va de Siros a Kea el jueves 10 de septiembre)",
     serifos: "Una relajada isla cíclada clásica con playas secas y cristalinas, y una hermosa chora tradicional.",
@@ -117,7 +117,7 @@ const translations = {
     pelion: "La montaña de Pelión que ofrece pueblos hermosos, senderos para senderismo y playas increíbles",
     crete: "Creta",
     archaeological: "Yacimientos arqueológicos: Delfos, Micenas, Teatro Antiguo de Epidauro",
-    back: "Atrás"
+    theEvent: "El evento"
   },
   el: {
     // Index page
@@ -177,7 +177,7 @@ const translations = {
     pelion: "Το όρος Πήλιο που προσφέρει όμορφα χωριά, πεζοπορία και απίστευτες παραλίες",
     crete: "Κρήτη",
     archaeological: "Αρχαιολογικοί χώροι: Δελφοί, Μυκήνες, Αρχαίο Θέατρο Επιδαύρου",
-    back: "Πίσω"
+    theEvent: "το γεγονός"
   }
 };
 
