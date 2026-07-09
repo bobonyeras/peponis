@@ -59,6 +59,7 @@ a:hover {
 
 p {
   font-size: 1.1rem;
+  white-space: pre-line;
 }
 
 .hero p,
