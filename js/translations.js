@@ -22,7 +22,7 @@ const translations = {
     gift: "Gift",
     giftDesc: "Sharing this day together will be the best gift we could ask for. However, if you would also like to contribute to our honeymoon, you can do so personally in Kea or in the following account:",
     giftNames: "Ioanna Lazopoulou",
-    giftIban: "IBAN GR71011072400000072470615286",
+    giftIban: "IBAN GR7101107240000072470615286",
     giftBic: "BIC ETHNGRAA",
     planYourTrip: "Plan your trip!",
     
@@ -83,7 +83,7 @@ const translations = {
     gift: "Regalo",
     giftDesc: "Compartir este día con vosotros será el mejor regalo que podemos tener. Sin embargo, si también queréis contribuir a nuestra luna de miel, podéis hacerlo personalmente en Kea o en la siguiente cuenta:",
     giftNames: "Ioanna Lazopoulou",
-    giftIban: "IBAN GR71011072400000072470615286",
+    giftIban: "IBAN GR7101107240000072470615286",
     giftBic: "BIC ETHNGRAA",
     planYourTrip: "¡Planifica tu viaje!",
     
@@ -144,7 +144,7 @@ const translations = {
     gift: "Δώρο Γάμου",
     giftDesc: "Το να μοιραστούμε αυτή την ημέρα μαζί θα είναι το καλύτερο δώρο που μπορούμε να έχουμε. Ωστόσο, αν θέλετε επίσης να συνεισφέρετε στο μήνα του μέλιτος μας, μπορείτε να το κάνετε προσωπικά στην Κέα ή στον παρακάτω λογαριασμό:",
     giftNames: "Ioanna Lazopoulou",
-    giftIban: "IBAN GR71011072400000072470615286",
+    giftIban: "IBAN GR7101107240000072470615286",
     giftBic: "BIC ETHNGRAA",
     planYourTrip: "Σχεδιάστε το ταξίδι σας!",
     
